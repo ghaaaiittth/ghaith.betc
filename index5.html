@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>آراء المستخدمين</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        form {
+            margin: 20px auto;
+            padding: 20px;
+            width: 80%;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        input[type="text"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 18px;
+        }
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@100..900&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+
+body {
+    background-color: aliceblue;
+    background-size: cover;
+    background-attachment:fixed;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+
+
+/* ستايل الوغو */
+#logo {
+    margin: 5px;
+}
+/* ستايل الوغو */
+
+
+#h1trips {
+        position: absolute;
+        top: 8%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border: solid black 2px;
+        padding: 4px;
+        background-color: #42e625;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 25px;
+        
+}
+
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#ulhome {
+    color: black;
+    border: solid black 1px;
+    background-color: #42e625;
+    position: absolute;
+    top: 10%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    padding: 3px;
+    font-size: 10px;
+}
+
+#hongkong {
+    position: relative; /* تعيين العنصر الأب بموضع نسبي */
+}
+
+#hongkong img {
+    position: absolute; /* تعيين الصورة بموضع مطلق داخل العنصر الأب */
+    top: 0%; /* تحديد موضع الصورة بالنسبة للأعلى بناءً على 50% من ارتفاع العنصر الأب */
+    left: 30; /* تحديد موضع الصورة بالنسبة لليسار بناءً على 0 بكسل من الجانب الأيسر للعنصر الأب */
+    transform: translate(10%, 80%); /* لتوسيط الصورة بشكل عمودي وأفقي */
+}
+
+
+#mako {
+    position: relative; /* تعيين العنصر الأب بموضع نسبي */
+}
+
+#mako img {
+    position: absolute; /* تعيين الصورة بموضع مطلق داخل العنصر الأب */
+    top: 0%; /* تحديد موضع الصورة بالنسبة للأعلى بناءً على 50% من ارتفاع العنصر الأب */
+    left: 30; /* تحديد موضع الصورة بالنسبة لليسار بناءً على 0 بكسل من الجانب الأيسر للعنصر الأب */
+    transform: translate(135%, 80%); /* لتوسيط الصورة بشكل عمودي وأفقي */
+}
+
+
+#newzlanda {
+    position: relative; /* تعيين العنصر الأب بموضع نسبي */
+}
+
+#newzlanda img {
+    position: absolute; /* تعيين الصورة بموضع مطلق داخل العنصر الأب */
+    top: 0%; /* تحديد موضع الصورة بالنسبة للأعلى بناءً على 50% من ارتفاع العنصر الأب */
+    left: 30; /* تحديد موضع الصورة بالنسبة لليسار بناءً على 0 بكسل من الجانب الأيسر للعنصر الأب */
+    transform: translate(260%, 80%); /* لتوسيط الصورة بشكل عمودي وأفقي */
+}
+
+
+#ulhongkong1 {
+    color: black;
+    border: solid black 1px;
+    background-color: #42e625;
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    transform: translate(-700%, 150%);
+    padding: 3px;
+    font-size: 15px;
+}
+
+#ulmako1 {
+    color: black;
+    border: solid black 1px;
+    background-color: #42e625;
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    transform: translate(-380%, 150%);
+    padding: 3px;
+    font-size: 15px;
+}
+
+
+#ulnewzlanda1 {
+    color: black;
+    border: solid black 1px;
+    background-color: #42e625;
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    transform: translate(290%, 150%);
+    padding: 3px;
+    font-size: 15px;
+}
+
+
+#ulhongkong2 {
+    color: black;
+    border: solid black 1px;
+    background-color: #42e625;
+    position: absolute;
+    top: 60%;
+    left: 46%;
+    transform: translate(-700%, 150%);
+    padding: 3px;
+    font-size: 15px;
+}
+
+#ulmako2 {
+    color: black;
+    border: solid black 1px;
+    background-color: #42e625;
+    position: absolute;
+    top: 60%;
+    left: 80%;
+    transform: translate(-700%, 150%);
+    padding: 3px;
+    font-size: 15px;
+}
+
+#ulnewzlanda2 {
+    color: black;
+    border: solid black 1px;
+    background-color: #42e625;
+    position: absolute;
+    top: 60%;
+    left: 113%;
+    transform: translate(-700%, 150%);
+    padding: 3px;
+    font-size: 15px;
+}
+
+
+
+
+#ulhongkong3 {
+    color: black;
+    border: solid black 1px;
+    background-color: #42e625;
+    position: absolute;
+    top: 70%;
+    left: 46%;
+    transform: translate(-700%, 150%);
+    padding: 3px;
+    font-size: 15px;
+}
+
+
+#ulmako3 {
+    color: black;
+    border: solid black 1px;
+    background-color: #42e625;
+    position: absolute;
+    top: 70%;
+    left: 80%;
+    transform: translate(-700%, 150%);
+    padding: 3px;
+    font-size: 15px;
+}
+
+
+#ulnewzlanda3 {
+    color: black;
+    border: solid black 1px;
+    background-color: #42e625;
+    position: absolute;
+    top: 70%;
+    left: 113%;
+    transform: translate(-700%, 150%);
+    padding: 3px;
+    font-size: 15px;
+}
+
+
+
+
+    </style>
+</head>
+<body>
+    <ul id="ulhome">
+        <li><a href="./index1.html">الصفحة الرئيسة</a></li>
+    </ul>
+    <img height="70px" src="./img/11zon_cropped.png" alt="logo">
+    <h1>تعليقاتكم</h1>
+    <form action="submit_review.php" method="post">
+        <label for="name">الاسم:</label><br>
+        <input type="text" id="name" name="name" required><br>
+        <label for="destination">الوجهة:</label><br>
+        <input type="text" id="destination" name="destination" required><br>
+        <label for="review">رأيك:</label><br>
+        <textarea id="review" name="review" rows="4" required></textarea><br>
+        <input type="submit" value="إرسال الرأي">
+    </form>
+</body>
+</html>
